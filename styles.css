@@ -1,0 +1,114 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.flyBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    width: 30rem;
+    margin: 1rem;
+}
+.img{
+    width: 210px;
+    background:none;
+    border: none;
+   
+}
+#btnW{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    border: none;
+    width: 100px;
+    border: none;
+    overflow: hidden;
+    border-radius: 50%;
+
+
+}
+.no-active{
+    display: none;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 30rem;
+    border: 2px solid white;
+    background-color: antiquewhite;
+    margin-bottom: 2rem;
+
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(4, 60, 4);
+    box-sizing: border-box;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: .7rem;
+}
+.paragraph{
+    flex-basis: 20rem;
+    padding-left: 1rem;
+}
+#close{
+     transform: translate(280%, -80%);
+     width: 20px;
+     height: 20px;
+     border: none;
+     background: none;
+     color: bisque;
+}
+#close:hover{
+    cursor: pointer;
+}
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 30rem;
+    border: 2px solid white;
+    gap: .5rem;
+    background-color: rgb(185, 178, 169);
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.form label{
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form input{
+    width: 100%;
+    border: none;
+    min-height: 1.6rem;
+    border-radius: 5px;
+    padding-left: .5rem;
+}
+
+#btn{
+    height: 2.2rem;
+    background-color: rgb(19, 115, 19);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+.btnBox{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}

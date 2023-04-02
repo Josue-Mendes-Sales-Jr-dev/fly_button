@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>butão flutuante</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="flyBtn active" id="main" >
+        <h1>butão flutuante</h1>
+        <div class="container" id="formWhats">
+            <div class="box">
+                <p class="paragraph">Olá! Preencha os campos abaixos para iniciar a conversa no whatsApp</p>
+                <button type="button" id="close">X</button>
+            </div>
+            <form action="#" class="form">
+                <label  aria-label="text" >
+                    <input id="text" placeholder="Nome" name="text" type="text">
+                </label>
+                <label aria-label="email">
+                    <input id="email" placeholder="Email" name="email" type="email">
+                </label>
+                <label aria-label="tel">
+                    <input id="tel" placeholder="Telefone" name="tel" type="tel">
+                </label>
+                <label aria-label="btn">
+                    <input id="btn" value="Iniciar a conversa" name="btn" type="submit">
+                </label>
+            </form>
+        </div>
+        <div class="btnBox">
+            <button id="btnW" type="button"><img class="img" src="imgs/whatsapp.png" alt="whatsapp"></button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
